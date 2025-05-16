@@ -94,7 +94,7 @@ curl -X POST http://localhost:5000/chat \
 
 ## 📬 Contact
 
-For questions or feedback, open an issue or reach out on GitHub.
+http://shadowpw.com/contact
 
 ---
 
