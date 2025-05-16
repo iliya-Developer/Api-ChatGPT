@@ -44,10 +44,7 @@ Using **rotating proxies** is recommended for stability in heavy use cases.
 ## 📦 Installation
 ```
 bash
-git clone https://github.com/your-username/Api-ChatGPT.git
-cd Api-ChatGPT
-pip install -r requirements.txt
-python app.py
+git clone https://github.com/ishadow-dev/Api-Chatgpt.git && cd Api-Chatgpt && cd API-GPT && pip install -r requirements.txt && python3 main.py
 ```
 > Make sure you have **Python 3.09+** installed.
 
