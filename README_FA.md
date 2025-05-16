@@ -81,13 +81,14 @@ data = {
 response = requests.post(url, json=data)
 print(response.json())
 ```
-### curl
 
+### curl
+```
 curl -X POST http://localhost:5000/chat \
 -H "Content-Type: application/json" \
 -d '{"user_id": 1, "message": "سلام، حالت چطوره؟"}'
 ---
-
+```
 ## 📬 ارتباط
 http://shadowpw.com/contact
 
