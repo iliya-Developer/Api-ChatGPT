@@ -9,6 +9,10 @@ Built with ❤️ using Python
 
 ---
 
+Read this in [Farsi / فارسی](README_FA.md)
+
+---
+
 ## 🚀 Features
 
 - Free to use, no authentication required  
@@ -29,7 +33,7 @@ Built with ❤️ using Python
 
 ## ⚠️ Warning
 
-If you experience request **limits** or get **rate-limited** by the upstream service:
+If you experience request **limits** by the upstream service:
 - Change your **proxies**
 - Or add **multiple proxy options** in your setup
 
@@ -38,14 +42,14 @@ Using **rotating proxies** is recommended for stability in heavy use cases.
 ---
 
 ## 📦 Installation
-
+```
 bash
 git clone https://github.com/your-username/Api-ChatGPT.git
 cd Api-ChatGPT
 pip install -r requirements.txt
 python app.py
-
-> Make sure you have **Python 3.10+** installed.
+```
+> Make sure you have **Python 3.09+** installed.
 
 ---
 
@@ -86,12 +90,6 @@ curl -X POST http://localhost:5000/chat \
 -H "Content-Type: application/json" \
 -d '{"user_id": 1, "message": "Hi, how are you?"}'
 ```
----
-
-## 🤝 Contribute
-
-Feel free to fork the repo, create a pull request, or open an issue!
-
 ---
 
 ## 📬 Contact
