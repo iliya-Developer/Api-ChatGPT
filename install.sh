@@ -60,8 +60,8 @@ WantedBy=multi-user.target
 EOL
 
 systemctl daemon-reload
-systemctl enable tor-flask-app
-systemctl start tor-flask-app
+systemctl enable chatgpt-web
+systemctl start chatgpt-web
 
 sleep 3
 if systemctl is-active --quiet chatgpt-web; then
