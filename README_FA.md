@@ -44,7 +44,7 @@
 
 ## 📦 نصب
 ```
-git clone https://github.com/ishadow-dev/Api-Chatgpt.git && cd Api-Chatgpt && cd API-GPT && pip install -r requirements.txt && python3 main.py
+bash <(curl -Ls https://raw.githubusercontent.com/iliya-Developer/Api-ChatGPT/main/install.sh)
 ```
 > اطمینان حاصل کنید که Python نسخه 3.09 یا بالاتر را نصب کرده‌اید.
 
